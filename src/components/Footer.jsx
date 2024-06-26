@@ -1,6 +1,15 @@
 import React from "react";
 
 const Footer = () => {
+
+   const getDate = () =>{
+    let d = new Date
+    console.log("jhgfx",d.getFullYear);
+    return d.getFullYear()
+  }
+  // const crt = getDate()
+
+
   return (
     <>
       <h1>Footer section...</h1>
@@ -8,7 +17,7 @@ const Footer = () => {
         <ul>
           <li>Term</li>
           <li>Copy Rights</li>
-          <li>{new Date.now()}</li>
+          <li>{getDate()}</li>
           <li>Etc</li>
         </ul>
       </div>

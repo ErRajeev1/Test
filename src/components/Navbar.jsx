@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   const listStyle = {
     padding : "2rem",
-    "list-style": "none"
+    listStyle: "none"
   }
   return (
     <>
